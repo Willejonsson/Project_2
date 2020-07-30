@@ -1,0 +1,185 @@
+html {
+ background-color: #FA4083;
+                
+}
+
+body   {
+background-image: url(/img/image-lion-background.png);
+background-position:top center;
+ background-repeat: no-repeat;
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+font-size: 1.125rem;
+
+}
+a {
+                color:silver;
+                text-decoration: none;
+}
+.container {
+                
+                width: 1024px;
+                min-height: 300px;
+                margin-left: auto;
+                margin-right: auto
+}
+
+header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center; 
+                padding-top: 20px;
+                padding-bottom: 20px;   
+                border-bottom: 1px solid lightgrey;
+                
+}
+main {
+   
+                min-height: 300px;
+                display: flex;
+                align-items: center;
+                line-height: 1.6rem;
+              
+}
+.card1{
+                background-image: url(/img/image-background-card1.jpg);
+                background-size: cover;
+                background-position: bottom;
+                min-height: 250px;
+                width: 30%;
+                
+                
+
+}
+.card2{
+                background-image: url(/img/image-background-card2.jpg);
+                background-size: cover;
+                background-position: bottom;
+                min-height: 250;
+                width: 30%;
+                
+ }
+ .card3{
+                background-image: url(/img/image-background-card3.jpg);
+                background-size: cover;
+                background-position: bottom;
+                min-height: 250;
+                width: 30%;
+}
+.card1, .card2, .card3 {
+                padding: 30px 30px 20px 30px;
+          
+                box-sizing: border-box;
+}         
+
+.box1{
+                flex: 2;  
+                padding-right:2rem;
+                padding-left: 2rem;
+                border-radius: 14px;
+}
+
+.box2{
+                flex: 1;
+                
+                
+}
+h1 {
+                font-size: 3.25rem;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 1rem;
+}
+
+h2{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 2rem;
+                margin-top: 20px;
+}
+
+.p {
+                line-height: 2.5rem;
+                margin-bottom: 0.5rem;
+                
+}
+.cards p {
+                font-size: 0.85rem;
+                line-height: 1.4rem;
+}
+i {
+                
+                color:gold;
+                margin-top:15px;
+                font-size: larger;
+                
+                
+}
+.button {
+                background-color: white;
+                font-family:italic;
+                padding:11px 25px;
+                display: inline-block;
+                border-radius: 90px 0px;
+                box-shadow:7px 7px rgba(148,127, 6, 0.413); 
+}
+.a button {
+                display: inline-block;
+                margin-top:20px;
+              
+}  
+.nav button{
+                background-color:silver;
+                font-family:italic;
+                padding:11px 25px;
+                display: inline-block;
+                border-radius: 90px 0px;
+                box-shadow:7px 7px rgba(148, 127, 6, 0.413);
+}
+.nav{
+                background-color: green;
+                flex: 2;
+                text-align:right;
+                padding-top:43px;
+                padding-bottom:20px;
+                font-size: small;
+                color:gold;
+                 
+}
+.nav button:hover {
+                background-color:rgba(239, 236, 236, 0.545);
+                transition-duration: 1s;
+}
+.button:hover {
+                background-color: gold;               
+                 transition-duration: 1s;
+}
+.cards a {
+                color:white;
+                text-decoration: none;
+}
+.dropdown {
+                display: none;
+                position: absolute;
+                z-index: 1;
+                padding-top: 20px;
+                text-align: center;
+}
+.dropdown .navbutton {
+                width: 120px;
+                background-color: white;
+            }
+            .navbutton:hover .dropdown {
+                display: block;
+ }      
+            
+.dropdown .navbutton a {
+                color: #FA4083;
+}
+
+
+
+
+
+
+
+
+
