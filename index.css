@@ -131,6 +131,7 @@ i {
 }
 .a button {
                 display: inline-block;
+                
                 margin-top:20px;
               
 }  
@@ -159,7 +160,8 @@ i {
                 transition-duration: 1s;
 }
 .button:hover {
-background-color: gold;                transition-duration: 1s;
+            background-color: gold;               
+            transition-duration: 1s;
 }
 .testimonials {
                 display: flex;
@@ -187,22 +189,27 @@ background-color: gold;                transition-duration: 1s;
                 text-align: center;
                 padding-top: 20px;
 }
-.dropdown {
-                display: none;
-                position: absolute;
-                z-index: 1;
-                padding-top: 20px;
-                text-align: center;
+/*this turns the drop-down-menu off when not used */
+.drop-down-box {
+    text-align: center;
+    display: none;
+    position: absolute;
+    z-index: 10px;
+    padding-top: 7px;
+    margin-left: -0.82rem;             
 }
-.dropdown .navbutton {
-                width: 120px;
-                background-color: white;
-            }
-            .navbutton:hover .dropdown {
-                display: block;
- }      
-            
-.dropdown .navbutton a {
-                color: #FA4083;
+/*this turns the drop-down-menu on during hover */
+.navbutton:hover .drop-down-box {
+    display: block;
+}
+.drop-down-box .navbutton {
+    background-color: gold;
 }
 
+.drop-down-box .navbutton:hover {
+background-color: lightgrey;
+transition-duration: 1s;
+}
+.drop-down-box.navbutton {
+width: 100px;
+}
