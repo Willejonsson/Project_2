@@ -135,7 +135,7 @@ i {
                 margin-top:20px;
               
 }  
-.nav button{
+.navbutton{
                 background-color:silver;
                 font-family:italic;
                 padding:11px 25px;
@@ -155,7 +155,7 @@ i {
                 color:gold;
                  
 }
-.nav button:hover {
+.navbutton:hover {
                 background-color:rgba(239, 236, 236, 0.545);
                 transition-duration: 1s;
 }
