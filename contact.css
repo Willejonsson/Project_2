@@ -33,7 +33,6 @@ html {
                             padding-bottom: 20px;   
                             border-bottom: 1px solid lightgrey;
                             
-            }
             main {
                
                             min-height: 300px;
@@ -41,6 +40,10 @@ html {
                             align-items: center;
                             line-height: 1.6rem;
                           
+            }
+            .main2 {
+                min-height: 300px;
+                padding-top: 50px;
             }
              .cards {
                  
