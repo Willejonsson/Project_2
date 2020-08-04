@@ -213,8 +213,12 @@ html {
             background-color: lightgrey;
             transition-duration: 1s;
             }
-            .drop-down-box.navbutton {
-            width: 100px;
+            .inputwrapper {
+                margin-bottom: 20px;
             }
-            
-            
+            .input .text .email  {
+                padding: 12px 20px;
+                width: 40%;
+                font-style: italic;
+                font-size: 1rem;
+            }
